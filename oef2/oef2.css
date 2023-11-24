@@ -1,0 +1,42 @@
+table{
+    border: 2px solid black;
+}
+
+thead{
+    font-family: cursief, serif;
+    background-color: #0090e3;
+    font-size: 20pt;
+    text-align: center;
+    color: white;
+}
+
+tbody{
+    font-family: monospace, sans-serif;
+    font-size: 18pt;
+    text-align: right;
+}
+
+tbody tr:nth-child(2n+1){
+    background-color: white;
+}
+
+tbody tr:nth-child(2n){
+    background-color: #f3f5cb;
+}
+
+tbody td:nth-child(4){
+    background-color: #f3f5cb;
+}
+
+td, th{
+    border: 1px solid black;
+    padding: 10px 5px;
+}
+
+tbody td:nth-child(1), td:nth-child(3){
+    min-width: 150px;
+}
+
+tbody tr:nth-child(1) td:nth-child(2), td:nth-child(4){
+    min-width: 250px;
+}
